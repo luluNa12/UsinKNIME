@@ -4,7 +4,7 @@ import pandas as pd
 st.title("Cleaned Data Viewer")
 
 # Load your cleaned KNIME data
-df = pd.read_csv("cleaneddata.csv")
+df = pd.read_csv("CleanedData.csv")
 
 # Show the data
 st.dataframe(df)
