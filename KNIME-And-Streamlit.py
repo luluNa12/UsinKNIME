@@ -1,6 +1,10 @@
 import streamlit as st
 import pandas as pd
 
+st.write('Hello, * World! * :sunglasses:')
+st.write('Hello, * World! * :heart:')
+st.write('Hi Chris, thank you so very much, * for all you do! * :pray:')
+
 st.title("Cleaned Data Viewer")
 
 # Load your cleaned KNIME data
