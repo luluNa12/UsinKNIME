@@ -15,5 +15,5 @@ st.dataframe(df)
 
 # Optional: Add filters
 if st.checkbox("Show only users with credit > 0"):
-    df = df[df["Credit"] > 0]
+    df = df[df["Credit"] > 20]
     st.dataframe(df)
